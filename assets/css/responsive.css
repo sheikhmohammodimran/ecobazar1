@@ -1,0 +1,205 @@
+@media (max-width: 768px) { 
+    .second_header{
+       box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.158) 0px 1px 2px;
+    }
+.second_header form input{
+padding: 6px 46px;
+display: inline-block;
+border: 1px solid var(--gray-scale-gray--500);
+border-radius: 20px 0 0 20px;
+outline: none;
+}
+.second_header form .search_icon{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+left: 6%;
+}
+.search_box button{
+	background-color: #00b207;
+	border: none;
+	outline: none;
+	border-radius: 0 20px 20px 0;
+	padding: 0 8px;
+}
+.second_header .mobile_menu{
+width: 22px;
+    height: 30px;
+    display: inline-block;
+  
+}
+
+.second_header .cart_button{
+    position: absolute;
+  top: 3%;
+    right: 8%;
+
+}
+#hero{
+    height: 600px;
+}
+
+#hero .slider h5{
+    font-size: 42px;
+}
+
+#product .heading h3{
+    
+    font-size: 27px;
+    
+}
+#product .heading{
+    padding-top: 15px;
+}
+#product{
+    padding: 0;
+    margin-top: -15px;
+}
+
+#product .btns ul{
+    text-align: left;
+}
+#product .product_body #Grid .mix{
+	width:50%;
+    height: 285px;
+}
+
+
+#product .product_body .content {
+  padding: 6px 4px 0px 9px;
+}
+ #product .btns ul{
+    padding: 5px;
+ }
+/*---------------------------------------------ferm product-------------------------*/
+#farm_product{
+    padding: 20px 0;
+}
+#farm_product .farm_cart {
+  margin-bottom: 13px;
+}
+#farm_product h5{
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 120%;
+  /* text-align: center; */
+  color: var(--gray-scale-gray--900);
+  margin-top: 2px;
+
+}
+
+/*-----------------------------------------deal-------------------------------------------------*/
+
+#deal{
+    background: var(--gren-gray-scale-50);
+	padding-top: 20px;
+}
+
+#deal .timer{
+    padding: 20px;
+}
+
+
+#deal .container button{
+    border-radius: 43px;
+    padding: 5px 4px;
+    width: 120px;
+    height: 40px;
+    background: var(--branding-success);
+    margin-top: 8px;
+    color: var(--gray-scale-white);
+    border: none;
+    outline: none;
+    
+}
+#deal .container button:hover{
+    color: var(--branding-success);
+    border: 1px solid var(--branding-success);
+    background-color: transparent;
+}
+
+
+#deal .container .countdown-container {
+
+  gap: 6px;
+ 
+}
+/*-----------------------------------------------feature---------------------------------------------*/
+#feature_product h6{
+    padding-bottom: 0;
+    font-size: 31px;
+}
+#feature_product{
+    padding: 28px 0;
+}
+#feature_product .container{
+    padding: 20px;
+}
+#feature_product .feature_content{
+    height: 260px;
+    position: relative;
+}
+#feature_product .content .cart_icon {
+  border-radius: 40px;
+  padding: 13px;
+  width: 50px;
+  height: 50px;
+  background: var(--gren-gray-scale-100);
+  position: absolute;
+  right: 8px;
+  bottom: 36px;
+}
+
+/*--------------------------------------------------client----------------------------------------*/
+#client{
+
+	padding: 20px 0px;
+}
+#client .container h5{
+    margin: 0;
+    font-weight: 590;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#client .full_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#client .content{
+    padding: 0;
+  margin: 9px;
+  width: 270px;
+  order: 2;
+
+}
+#client .client_pic{
+    order: 1;
+}
+#client span svg{
+    margin: 0;
+}
+
+  #client span svg {
+    height: 20px;
+    padding-top: 4px;
+  }
+#client p{
+    font-size: 13px;
+}
+#client .client_pic h4{
+    font-size: 13px;
+}
+#client .client_pic h6{
+    font-size: 11px;
+}
+
+/*----------------------------------------------------latest----------------------------------------------------------------*/
+#latest h6{
+    margin: 0;
+}
+#latest{
+    padding: 20px 0;
+}
+ }
